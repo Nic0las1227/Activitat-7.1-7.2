@@ -1,0 +1,89 @@
+{
+    "Pokemons":{
+        "pokemon":[
+            {
+                "id":"#0254",
+                "nom":"Sceptile",
+                "tipus":"Planta",
+                "pes_Kg":52.5,
+                "altura_meter":1.7,
+                "unidad_altura":"m",
+                "estadistiques":[
+                    {
+                        "velocitat":4,
+                        "fortaleza":5,
+                        "precisión":5,
+                        "resistencia":4,
+                        "salto":4
+                    }
+                ],
+                "moviments":[
+                    {
+                        "nom":"Corte furia",
+                        "descripció":"Corte furia (Fury Cutter en inglés; れんぞくぎり Corte consecutivo en japonés), llamado cortefuria antes de la sexta generación, es un movimiento de tipo bicho introducido en la segunda generación",
+                        "potència":40,
+                        "contacte":true
+                    },
+                    {
+                        "nom":"Buena baza",
+                        "descripció":"Buena baza (Assurance en inglés; ダメおし Cerciorarse en japonés) es un movimiento de tipo siniestro introducido en la cuarta generación.",
+                        "potència":60,
+                        "contacte":true
+                        
+                    }
+                ],
+                "imatge":"https://images.wikidexcdn.net/mwuploads/wikidex/9/99/latest/20140111191301/Sceptile_XY.gif",
+                "evolucio":{
+                    "evolucions":["#0252,#0253"],
+                    "nivell_primeraevolucio":16,
+                    "nivell_segonaevolucio":36
+                }
+                                   
+                
+            },
+            {   "id":"#0059",
+                "nom":"Arcanine",
+                "tipus":"Fuego",
+                "pes_Kg": 155.0,
+                "altura_meter": 1.9,
+                "unitat_altura":"m",
+                "estadistiques":[
+                    {
+                        "velocidad": 5,
+                        "fortaleza": 5,
+                        "precisión": 2,
+                        "resistencia": 3,
+                        "salto": 3
+                    }
+                ],
+                "moviments":[
+                    {
+                        "nom": "Colmillo igneo",
+                        "descripció":"Colmillo ígneo (Fire Fang en inglés; ほのおのキバ Colmillo de llamas en japonés) es un movimiento de tipo fuego introducido en la cuarta generación.",
+                        "potència": 65,
+                        "contacte": true
+                    
+                    },
+                    {
+                        "nom": "Carantoña",
+                        "descripció":"Carantoña (Play Rough en inglés; じゃれつく Juguetear en japonés) es un movimiento de tipo hada introducido en la sexta generación.",
+                        "potència": 90,
+                        "contacte": true
+                    }
+                ],
+                "imatge":"https://images.wikidexcdn.net/mwuploads/wikidex/5/50/Arcanine.png",
+                "evolucio":{
+                    "evolucions": "#0058",
+                    "nivell_primeraevolucio": 35
+                }
+            
+            }
+                ]
+            }
+        }
+
+
+
+
+
+

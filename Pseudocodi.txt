@@ -1,0 +1,48 @@
+a.
+Unitatmesurapokemon=Pokemons["pokemon"][0][unidad_altura]
+
+b.
+moviment_contacte=Pokemon["pokemon"][0]["moviments"][1]["contacte"]
+
+c.
+Velocitat=Pokemons["pokemon"][0]["estadistiques"][0]["velocitat"]
+fortaleza=Pokemons["pokemon"][0]["estadistiques"][0]["fortaleza"]
+precision=Pokemons["pokemon"][0]["estadistiques"][0]["precision"]
+resistencia=Pokemons["pokemon"][0]["estadistiques"][0]["resistencia"]
+salto=Pokemons["pokemon"][0]["estadistiques"][0]["salto"]
+sumaEstadistiques=Velocitat+fortaleza+precision+resistencia+salto
+
+d.
+Velocitat=Pokemons["pokemon"][0]["estadistiques"][0]["velocitat"]
+fortaleza=Pokemons["pokemon"][0]["estadistiques"][0]["fortaleza"]
+precision=Pokemons["pokemon"][0]["estadistiques"][0]["precision"]
+resistencia=Pokemons["pokemon"][0]["estadistiques"][0]["resistencia"]
+salto=Pokemons["pokemon"][0]["estadistiques"][0]["salto"]
+mitjanaEstadistiques=(Velocitat+fortaleza+precision+resistencia+salto)/5
+
+e.
+pes1=Pokemons["pokemon"][0]["pes_kg"]
+pes2=Pokemons["pokemon"][1]["pes_kg"]
+pestotal=pes1+pes2
+
+f.
+nivel_primeraevolucion=Pokemons["pokemon"][0]["evolucio"]["nivell_primeraevolucio"]
+Al meu codi no tinc cap key que sigui nivelldePokemon aleshores me inventare la ruta.
+nivellPokemon=Pokemons["pokemon"][0][nivell]
+
+if nivell=>nivel_primeraevolucion return TRUE
+
+g.
+moviment_potencia_pk1=Pokemon["pokemon"][0]["moviments"][0]["potencia"]
+moviment_potencia_2_pk1=Pokemon["pokemon"][0]["moviments"][1]["potencia"]
+potenciatotal_pk1=moviment_potencia_pk1+moviment_potencia_2_pk1
+
+moviment_potencia_pk2=Pokemon["pokemon"][1]["moviments"][0]["potencia"]
+moviment_potencia_2_pk2=Pokemon["pokemon"][1]["moviments"][1]["potencia"]
+potenciatotal_pk2=moviment_potencia_pk2+moviment_potencia_2_pk2
+
+if potenciatotal_pk1>potenciatotal_pk2 
+return potenciatotal_pk1
+else
+return potenciatotal_pk2s
+
